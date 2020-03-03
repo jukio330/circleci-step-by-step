@@ -44,7 +44,7 @@ jobs:
 
 workflows:
   version: 2
-  build:
+  build_test:
     jobs:
       - "jdk-8"
       - "jdk-10"
